@@ -15,4 +15,5 @@ data class Love(
     var result: String,
     @PrimaryKey(autoGenerate = true)
     var id:Int?=null,
+    var insertTime:Long
 ):Serializable

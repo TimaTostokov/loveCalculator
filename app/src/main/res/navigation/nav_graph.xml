@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/historyFragment"
-        android:name="com.example.lovecolculater.HistoryFragment"
+        android:name="com.example.lovecolculater.history.HistoryFragment"
         android:label="fragment_history"
         tools:layout="@layout/fragment_history" />
 
