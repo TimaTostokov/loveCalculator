@@ -39,7 +39,6 @@ class FirstFragment : Fragment(), FirstView {
         binding.history.setOnClickListener {
             findNavController().navigate(R.id.historyFragment)
         }
-
     }
 
     override fun initClicker() {
